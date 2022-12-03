@@ -13,7 +13,7 @@ export default function LifeStatus(){
     No robô, nós temos primeiro felicidade e depois saúde xx-xx
 */
 
-return (
+  return (
     <View style={StyleSheet.container}>
         <Lottie
             source={require("../../../assets/education/education-100.json")}
@@ -63,4 +63,4 @@ const styles = StyleSheet.create ({
         position: "absolute",
     },
 
-})
+});

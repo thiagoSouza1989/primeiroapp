@@ -22,7 +22,7 @@ export default function Start(){
                     />    
                     <LifeStatus/>
                     <Text style={styles.description}>
-                       Vamos transformar sua vida {"\n"}em um jogo, buscando sempre {"\n"} 
+                       Vamos transformar sua vida {"\n"}em um jogo, buscando sempre {"\n"}{" "}
                        o melhor nível.
                     </Text>
 

@@ -17,7 +17,7 @@ export default function ExplanationCard() {
                 />
                 <Text style={styles.description}>
                     <Text style={styles.mind}>Mente: </Text> Hábitos para melhorar sua
-                    inteligência/sabedoria.
+                    inteligência/sabedoria. 
                 </Text>
             </View>
 
@@ -52,12 +52,12 @@ export default function ExplanationCard() {
                     style={styles.icon}
                 />
                 <Text style={styles.description}>
-                    <Text style={styles.body}>Humor: </Text> Hábitos para controlar o stress{"\n"}
+                    <Text style={styles.fun}>Humor: </Text> Hábitos para controlar o stress{"\n"}
                     e aumentar felicidade.
                 </Text>
             </View>
         </View>
-    )
+    );
 }
 
 const styles = StyleSheet.create({
@@ -102,4 +102,4 @@ const styles = StyleSheet.create({
         color: "white",
     },
         
-})
+});

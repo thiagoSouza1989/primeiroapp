@@ -5,7 +5,7 @@ import ExplanationCard from "../../Components/Explanation/ExplanationCard";
 
 export default function AppExplanation() {
     function handleSetShowHome(){
-        console.log("Botão clicado!")
+        console.log("Botão clicado!");
     }
 
  return (
@@ -16,7 +16,7 @@ export default function AppExplanation() {
                     Antes, deixa {"\n"} eu te explicar...
                 </Text>
                 <ExplanationCard />
-                <Text style={styles.description}>
+                <Text style={styles.descriptionCta}>
                     Pronto(a) para subir de nível na vida?
                 </Text>
                 <Text style={styles.description}>
@@ -33,10 +33,10 @@ export default function AppExplanation() {
 
         </ScrollView>
     </View>
- )
+ );
 }
 
-const styles = StyleSheet.creator({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: "rgba(21, 21, 21, 0.98)"
@@ -61,4 +61,4 @@ const styles = StyleSheet.creator({
         marginBottom: 30,
     },
 
-})
+});
