@@ -1,10 +1,8 @@
 import { useNavigation } from "@react-navigation/native";
-import React from "react";
-import { ScrollView } from "react-native-gesture-handler";
-import { View, Text, StyleSheet, } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 
 import LifeStatus from "../../Components/Common/LifeStatus";
-
+import StatusBar from "../../Components/Home/StatusBar";
 
 export default function Home() {
     const navigation = useNavigation();
@@ -18,11 +16,13 @@ export default function Home() {
             <ScrollView>
                 <View style={{alignItems: "center"}}>
                     <Text style={styles.dailyChecks}>❤️20 dias - ☑️ 80 checks </Text>
-                    <LifeStatus/>
+
+                    <LifeStatus />
+                    <StatusBar />
                 </View>
                 <Text
                     style={styles.explanationText}
-                    onPress={( ) => {
+                    onPress={() => {
                         handleNavExplanation();
                     }}
                 >   
@@ -51,11 +51,9 @@ const styles= StyleSheet.create({
         fontSize: 16,
         fontWeight: "bold",
         textAlign: "center",
-        paddingTop: 85,
+        paddingTop: 25,
         paddingBottom: 25,
 
-    }
-
-
+    },
 
 })

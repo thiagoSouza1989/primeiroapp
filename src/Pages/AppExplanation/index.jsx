@@ -12,7 +12,6 @@ import ExplanationCard from "../../Components/Explanation/ExplanationCard";
 import { useNavigation } from "@react-navigation/native";
 
 
-
 export default function AppExplanation() {
 
     const navigation = useNavigation();
